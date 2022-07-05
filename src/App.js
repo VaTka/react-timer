@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import ButtonGroup from './components/buttonGroup';
+import Timer from './components/Timer'
+import HookTimer from './components/HookTimer'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="wrapper">
+                <h1>C использованием React + Redux</h1>
+                <Timer/>
+                <ButtonGroup/>
+                <h1>C использованием React + React Hooks</h1>
+                <HookTimer/>
+            </div>
+
+        </div>
+    );
 }
 
 export default App;

@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+h1 {
+  margin: 100px 0px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timer {
+  /*margin-top: 200px;*/
+  font-size: 72pt;
+}
+
+.btn{
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn button{
+  padding: 3px 10px;
+  font-size: 18pt;
+}
